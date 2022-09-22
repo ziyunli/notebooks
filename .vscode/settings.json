@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "fastai",
+    "fastcore",
+    "fastdownload",
+    "itemgot",
+    "urljson",
+    "urlread"
+  ],
+  "python.linting.mypyEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
+}
