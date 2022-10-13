@@ -26,7 +26,7 @@
 # platform: linux-64
 @EXPLICIT
 https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2022.9.14-ha878542_0.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2022.9.24-ha878542_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2
@@ -110,7 +110,7 @@ https://conda.anaconda.org/conda-forge/noarch/attrs-22.1.0-pyh71513ae_1.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/backcall-0.2.0-pyh9f0ad1d_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/backports-1.0-py_2.tar.bz2
 https://conda.anaconda.org/fastchan/linux-64/brotli-1.0.9-h166bdaf_7.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/certifi-2022.9.14-py310h06a4308_0.conda
+https://conda.anaconda.org/conda-forge/noarch/certifi-2022.9.24-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-2.1.1-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/fastchan/noarch/colorama-0.4.5-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/fastchan/noarch/cycler-0.11.0-pyhd8ed1ab_0.tar.bz2
@@ -135,6 +135,7 @@ https://conda.anaconda.org/conda-forge/linux-64/libblas-3.9.0-16_linux64_mkl.tar
 https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.7.1-h32351e8_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libpq-14.5-he2d8382_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libxkbcommon-1.0.3-he3ba5ed_0.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/libxslt-1.1.33-h0ef7038_3.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/llvmlite-0.38.0-py310h4ff587b_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/markupsafe-2.0.1-py310h7f8727e_0.conda
 https://conda.anaconda.org/conda-forge/noarch/mccabe-0.7.0-pyhd8ed1ab_0.tar.bz2
@@ -196,6 +197,7 @@ https://conda.anaconda.org/conda-forge/linux-64/jupyter_core-4.11.1-py310hff5208
 https://conda.anaconda.org/fastchan/linux-64/kiwisolver-1.4.4-py310hbf28c38_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libcblas-3.9.0-16_linux64_mkl.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.9.0-16_linux64_mkl.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/lxml-4.8.0-py310h5764c6d_2.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.1.6-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/mistune-0.8.4-py310h6acc77f_1005.tar.bz2
 https://conda.anaconda.org/fastchan/linux-64/murmurhash-1.0.8-py310hd8f1fbe_0.tar.bz2
@@ -282,13 +284,18 @@ https://conda.anaconda.org/conda-forge/noarch/jupyterlab_server-2.15.1-pyhd8ed1a
 https://conda.anaconda.org/conda-forge/noarch/notebook-6.4.12-pyha770c72_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/notebook-shim-0.1.0-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/pyqt-5.12.3-py310hff52083_8.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/jupyter_contrib_core-0.4.0-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/fastchan/linux-64/matplotlib-3.6.0-py310hff52083_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/nbclassic-0.4.3-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/voila-0.3.6-pyhd8ed1ab_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/widgetsnbextension-3.5.2-py310h06a4308_0.conda
 https://conda.anaconda.org/fastchan/noarch/fastai-2.7.9-py_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/ipywidgets-7.6.5-pyhd3eb1b0_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/jupyter_highlight_selected_word-0.2.0-py310hff52083_1005.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/jupyter_latex_envs-1.4.6-pyhd8ed1ab_1002.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/jupyter_nbextensions_configurator-0.4.1-pyhd8ed1ab_2.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/jupyterlab-3.4.7-pyhd8ed1ab_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/seaborn-0.11.2-pyhd3eb1b0_0.conda
+https://conda.anaconda.org/conda-forge/noarch/jupyter_contrib_nbextensions-0.5.1-pyhd8ed1ab_2.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/missingno-0.4.2-pyhd3eb1b0_1.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pandas-profiling-3.1.0-py310h06a4308_0.conda
