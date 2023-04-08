@@ -124,7 +124,8 @@ ipython_config.py
 
 data
 
+.env
+
 # Devenv
 .devenv*
 devenv.local.nix
-
