@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.0.1"
+description = ""
+authors = ["Ziyun Li <me@ziyunli.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^3.6.3"
+voila = "^0.4.0"
+llama-index = "^0.5.10"
+langchain = "^0.0.134"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
