@@ -2,6 +2,28 @@
 
 ## Instructions
 
+### Pre-commit
+
+Pre-commit hooks run all the auto-formatters (e.g. `black`), linters (e.g. `ruff`), and other quality
+ checks to make sure the changeset is in good shape before a commit/push happens.
+
+You can install the hooks with (runs for each commit):
+
+```sh
+pre-commit install
+```
+
+Or if you want them to run only for each push:
+
+```sh
+pre-commit install -t pre-push
+```
+
+Or if you want e.g. want to run all checks manually for all files:
+
+```sh
+pre-commit run --all-files
+```
 
 ## Troubleshoting
 
