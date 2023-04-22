@@ -1,0 +1,120 @@
+{
+  "completion_tokens": 27,
+  "prompt_tokens": 250,
+  "total_tokens": 277
+}
+[{'content': 'You run in a loop of Thought, Action, PAUSE, Observation.\n'
+             'At the end of the loop you output an Answer\n'
+             'Use Thought to describe your thoughts about the question you '
+             'have been asked.\n'
+             'Use Action to run one of the actions available to you - then '
+             'return PAUSE.\n'
+             'Observation will be the result of running those actions.\n'
+             '\n'
+             'Your available actions are:\n'
+             '\n'
+             'calculate:\n'
+             'e.g. calculate: 4 * 7 / 3\n'
+             'Runs a calculation and returns the number - uses Python so be '
+             'sure to \n'
+             'use floating point syntax if necessary\n'
+             '\n'
+             'wikipedia:\n'
+             'e.g. wikipedia: Django\n'
+             'Returns a summary from searching Wikipedia\n'
+             '\n'
+             'simon_blog_search:\n'
+             'e.g. simon_blog_search: Django\n'
+             "Search Simon's blog for that term\n"
+             '\n'
+             'Always look things up on Wikipedia if you have the opportunity '
+             'to do so.\n'
+             '\n'
+             'Example session:\n'
+             '\n'
+             'Question: What is the capital of France?\n'
+             'Thought: I should look up France on Wikipedia\n'
+             'Action: wikipedia: France\n'
+             'PAUSE\n'
+             '\n'
+             'You will be called again with this:\n'
+             '\n'
+             'Observation: France is a country. The capital is Paris.\n'
+             '\n'
+             'You then output:\n'
+             '\n'
+             'Answer: The capital of France is Paris',
+  'role': 'system'},
+ {'content': 'What does England share borders with?', 'role': 'user'},
+ {'content': 'Thought: I believe England shares borders with Scotland and '
+             'Wales, but let me double check that.\n'
+             'Action: wikipedia: England\n'
+             'PAUSE',
+  'role': 'assistant'}]
+Thought: I believe England shares borders with Scotland and Wales, but let me double check that.
+Action: wikipedia: England
+PAUSE
+ -- running wikipedia England
+Observation: <span class="searchmatch">England</span> is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest
+{
+  "completion_tokens": 16,
+  "prompt_tokens": 332,
+  "total_tokens": 348
+}
+[{'content': 'You run in a loop of Thought, Action, PAUSE, Observation.\n'
+             'At the end of the loop you output an Answer\n'
+             'Use Thought to describe your thoughts about the question you '
+             'have been asked.\n'
+             'Use Action to run one of the actions available to you - then '
+             'return PAUSE.\n'
+             'Observation will be the result of running those actions.\n'
+             '\n'
+             'Your available actions are:\n'
+             '\n'
+             'calculate:\n'
+             'e.g. calculate: 4 * 7 / 3\n'
+             'Runs a calculation and returns the number - uses Python so be '
+             'sure to \n'
+             'use floating point syntax if necessary\n'
+             '\n'
+             'wikipedia:\n'
+             'e.g. wikipedia: Django\n'
+             'Returns a summary from searching Wikipedia\n'
+             '\n'
+             'simon_blog_search:\n'
+             'e.g. simon_blog_search: Django\n'
+             "Search Simon's blog for that term\n"
+             '\n'
+             'Always look things up on Wikipedia if you have the opportunity '
+             'to do so.\n'
+             '\n'
+             'Example session:\n'
+             '\n'
+             'Question: What is the capital of France?\n'
+             'Thought: I should look up France on Wikipedia\n'
+             'Action: wikipedia: France\n'
+             'PAUSE\n'
+             '\n'
+             'You will be called again with this:\n'
+             '\n'
+             'Observation: France is a country. The capital is Paris.\n'
+             '\n'
+             'You then output:\n'
+             '\n'
+             'Answer: The capital of France is Paris',
+  'role': 'system'},
+ {'content': 'What does England share borders with?', 'role': 'user'},
+ {'content': 'Thought: I believe England shares borders with Scotland and '
+             'Wales, but let me double check that.\n'
+             'Action: wikipedia: England\n'
+             'PAUSE',
+  'role': 'assistant'},
+ {'content': 'Observation: <span class="searchmatch">England</span> is a '
+             'country that is part of the United Kingdom. It shares land '
+             'borders with Wales to its west and Scotland to its north. The '
+             'Irish Sea lies northwest',
+  'role': 'user'},
+ {'content': 'Answer: England shares borders with Scotland to its north and '
+             'Wales to its west.',
+  'role': 'assistant'}]
+Answer: England shares borders with Scotland to its north and Wales to its west.
