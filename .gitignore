@@ -127,3 +127,5 @@ ipython_config.py
 # Devenv
 .devenv*
 devenv.local.nix
+
+.ruff_cache
