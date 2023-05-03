@@ -2,6 +2,12 @@
 
 ## Instructions
 
+### Bootstrap
+
+```sh
+micromamba create -n fastai-gpu -c fastchan fastai==2.7.11 jupyterlab ipywidgets
+```
+
 ### Pre-commit
 
 Pre-commit hooks run all the auto-formatters (e.g. `black`), linters (e.g. `ruff`), and other quality
@@ -23,6 +29,12 @@ Or if you want e.g. want to run all checks manually for all files:
 
 ```sh
 pre-commit run --all-files
+```
+
+### Running Jupyter lab
+
+```sh
+jupyter-lab --ip 192.168.50.114 --port 8888
 ```
 
 ## Troubleshoting
