@@ -34,6 +34,7 @@ pre-commit run --all-files
 ### Running Jupyter lab
 
 ```sh
+micromamba activate fastai-gpu
 jupyter-lab --ip 192.168.50.114 --port 8888
 ```
 
