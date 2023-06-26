@@ -27,3 +27,6 @@ blacken-docs = "^1.13.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+ignore = ["E402", "E501", "F403", "F405"]
