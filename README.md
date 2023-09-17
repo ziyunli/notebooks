@@ -2,12 +2,6 @@
 
 ## Instructions
 
-### Bootstrap
-
-```sh
-micromamba create -n fastai-gpu -c fastchan fastai==2.7.11 jupyterlab ipywidgets
-```
-
 ### Pre-commit
 
 Pre-commit hooks run all the auto-formatters (e.g. `black`), linters (e.g. `ruff`), and other quality
@@ -51,3 +45,10 @@ Command not found: jupyter-lab
 It seems like somehow it will use the previous generated venv, which is not compatible with the current python version.
 
 Solution: delete the venv folder `~/Library/Caches/pypoetry/virtualenvs` and run `poetry install` again.
+
+## Bootstrap
+
+```sh
+micromamba create -n fastai-gpu -c fastchan fastai==1.7.11 jupyterlab ipywidgets
+micromamba env export -n fastai-gpu > environment.yml
+```
