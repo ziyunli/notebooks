@@ -6,7 +6,7 @@
 
 ```sh
 micromamba activate fastai-gpu
-jupyter-lab --ip 192.168.50.114 --port 8888
+jupyter-lab --ip "your_ip" --port 8888
 ```
 
 ### Pre-commit
