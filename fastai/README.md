@@ -5,7 +5,9 @@
 ### Bootstrap
 
 ```sh
-micromamba create -n fastai -c fastchan fastai jupyterlab ipywidgets python=3.11
+micromamba create -n fastai -c fastchan fastai jupyterlab ipywidgets
+micromamba activate fastai
+
 micromamba env export -n fastai > fastai.yml
 ```
 
